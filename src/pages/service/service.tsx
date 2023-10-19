@@ -2,18 +2,19 @@ import { FunctionComponent, useEffect } from "react"
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import Image1 from '../../assets/img/im1.png';
+import { Link } from "react-router-dom";
 const Service: FunctionComponent = () => {
   useEffect(() => {
     Aos.init();
   }, []);
   return (
     <>
-      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
         <h1 className="sm:p-[90px] p-10 text-[#FFFFFF] text-center font-bold text-5xl font-mono">SERVICE</h1>
       </div>
 
       <section className="py-2">
-        <div className="container sm:p-10 p-4 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
+        <div className="container mx-auto sm:p-10 p-4 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
           
 
           <div className="sm:w-3/3 w-full flex flex-col gap-4">
@@ -22,9 +23,12 @@ const Service: FunctionComponent = () => {
               <div className="p-4 flex flex-col gap-4">
                 <span className="font-bold text-xl">EDUCATION FOR SYRIAN CHILD</span>
                 <p className="font-normal text-sm text-[#666666]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-                <div className="flex justify-between mt-4">
-                  <span className="text-[#666666] font-bold"> <span className="text-[#FF7000]">$2,580</span> to go</span>
-                  <span className="text-[#666666] font-normal">80%</span>
+                <div className="w-6/6">
+                  <Link to='/service-detail'>
+                    <button type="button" className="py-3 px-4 inline-flex justify-center items-center gap-2  font-semibold bg-[#333333] text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+                      View detail
+                    </button>
+                  </Link>
                 </div>
 
               </div>
@@ -34,33 +38,12 @@ const Service: FunctionComponent = () => {
               <div className="p-4 flex flex-col gap-4">
                 <span className="font-bold text-xl">EDUCATION FOR SYRIAN CHILD</span>
                 <p className="font-normal text-sm text-[#666666]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-                <div className="flex justify-between mt-4">
-                  <span className="text-[#666666] font-bold"> <span className="text-[#FF7000]">$2,580</span> to go</span>
-                  <span className="text-[#666666] font-normal">80%</span>
-                </div>
-
-              </div>
-            </div>
-            <div className="flex flex-col bg-[#F8F8F8] text-justify">
-              <img src={Image1} alt="" />
-              <div className="p-4 flex flex-col gap-4">
-                <span className="font-bold text-xl">EDUCATION FOR SYRIAN CHILD</span>
-                <p className="font-normal text-sm text-[#666666]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-                <div className="flex justify-between mt-4">
-                  <span className="text-[#666666] font-bold"> <span className="text-[#FF7000]">$2,580</span> to go</span>
-                  <span className="text-[#666666] font-normal">80%</span>
-                </div>
-
-              </div>
-            </div>
-            <div className="flex flex-col bg-[#F8F8F8] text-justify">
-              <img src={Image1} alt="" />
-              <div className="p-4 flex flex-col gap-4">
-                <span className="font-bold text-xl">EDUCATION FOR SYRIAN CHILD</span>
-                <p className="font-normal text-sm text-[#666666]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-                <div className="flex justify-between mt-4">
-                  <span className="text-[#666666] font-bold"> <span className="text-[#FF7000]">$2,580</span> to go</span>
-                  <span className="text-[#666666] font-normal">80%</span>
+                <div className="w-6/6">
+                  <Link to='/service-detail'>
+                    <button type="button" className="py-3 px-4 inline-flex justify-center items-center gap-2  font-semibold bg-[#333333] text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+                      View detail
+                    </button>
+                  </Link>
                 </div>
 
               </div>

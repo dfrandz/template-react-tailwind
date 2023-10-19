@@ -7,6 +7,8 @@ import About from './pages/about/about';
 import Contact from './pages/contact/contact';
 import Faq from './pages/faq/faq';
 import Service from './pages/service/service';
+import ServiceDetail from './pages/service/detail';
+import BlogList from './pages/blog/blog';
 
 
 
@@ -24,6 +26,8 @@ function App() {
               <Route path='/faq' Component={Faq} />
               <Route path='/contact' Component={Contact}/>
               <Route path='/service' Component={Service}/>
+              <Route path='/service-detail' Component={ServiceDetail}/>
+              <Route path='/blog' Component={BlogList}/>
             </Routes>
           </main>
         <Footer/>

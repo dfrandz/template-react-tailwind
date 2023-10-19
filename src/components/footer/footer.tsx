@@ -25,8 +25,10 @@ const Footer: FunctionComponent = () => {
                 <div className="relative w-full">
                     <img src={Map} alt="" className="w-full h-[27rem] object-cover absolute mix-blend-normal" />
                     <div className="grid sm:grid-cols-4 grid-cols-1 gap-10 sm:p-14 p-5 relative">
-                        <div className="mt-8 ">
-                            <img src={Logo} alt="" />
+                        <div className="mt-8 relative">
+                            <Link to='/'>
+                                <img src={Logo} alt="" />       
+                            </Link>
                             <p className="text-justify text-[#FFFFFF]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sunt in culpa qui officia deserunt mollit anim qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                         <div className="flex flex-col items-start mt-8">

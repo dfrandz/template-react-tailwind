@@ -27,12 +27,12 @@ const About: FunctionComponent = () => {
 
     return (
         <>
-            <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
                 <h1 className="sm:p-[90px] p-10 text-[#FFFFFF] text-center font-bold text-5xl font-mono">About Us</h1>
             </div>
 
             <section className="py-2">
-                <div className="container p-4 sm:p-10 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
+                <div className="container mx-auto p-4 sm:p-10 sm:pl-[8rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
                     <div className="w-2/2 flex flex-col gap-6" data-aos="zoom-in-right" data-aos-duration="1500">
                         <h1 className="text-[30px] font-bold font-serif">Welcome <span className="text-[#FF7000]">To</span>  Ngoo</h1>
                         <div className="bg-[#FF7000] h-1 w-10"></div>
@@ -56,7 +56,7 @@ const About: FunctionComponent = () => {
                         <img src={Image2} alt="imag2" className="sm:mt-[-6rem] sm:pl-[14rem]" data-aos="zoom-out-left" data-aos-duration="1500" />
                     </div>
                 </div>
-                <div className="container gap-4 p-10 justify-center sm:pl-[14rem] grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+                <div className="container mx-auto gap-4 p-10 justify-center sm:pl-[8rem] grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
                     <div className="flex items-center gap-3">
                         <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="45" cy="45" r="45" fill="#FF7000" />
@@ -103,15 +103,15 @@ const About: FunctionComponent = () => {
                 </div>
             </section>
 
-            <section className="sm:h-[28rem] relative text-center mt-[5.5rem] sm:pl-[4rem] p-2 bg-[#222222]">
+            <section className=" mx-auto sm:h-[28rem] relative text-center mt-[5.5rem] sm:pl-[4rem] p-2 bg-[#222222]">
                 <div className="relative w-full">
                     <img src={Map} alt="" className="w-full object-cover absolute mix-blend-normal" />
-                    <div className="flex flex-col items-center gap-5 mb-5">
+                    <div className=" relative flex flex-col items-center gap-5 mb-5">
                         <h3 className="font-bold text-2xl font-serif mt-10 text-[#FFFFFF]"> <span className="text-[#FF7000]">We Help Many</span> People</h3>
                         <p className="text-[#FF7000] text-base">Want to Become a Volunteer</p>
                     </div>
-                    <p className="text-center sm:px-72 text-[#FFFFFF]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis iste natus error sit .</p>
-                    <div className="mt-10 flex gap-4 justify-center items-center mb-9">
+                    <p className="text-center sm:px-72 text-[#FFFFFF] relative">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis iste natus error sit .</p>
+                    <div className=" relative mt-10 flex gap-4 justify-center items-center mb-9">
                         <div className="w-6/6">
 
 
@@ -133,8 +133,8 @@ const About: FunctionComponent = () => {
 
             </section>
 
-            <section className="py-2">
-                <div className="container p-10 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
+            <section className="py-2 relative">
+                <div className="container mx-auto p-10 sm:pl-[8rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
                     <div className="w-2/2 flex flex-col gap-6" data-aos="zoom-in-right" data-aos-duration="1500">
                         <h1 className="text-[30px] font-bold font-serif">Welcome <span className="text-[#FF7000]">To</span>  Ngoo</h1>
                         <div className="bg-[#FF7000] h-1 w-10"></div>
@@ -177,7 +177,7 @@ const About: FunctionComponent = () => {
 
             </section>
 
-            <section className="text-center  mt-8 sm:pl-[4rem] p-2 bg-[#F1F1F1]">
+            <section className="text-center mx-auto mt-8 sm:pl-[4rem] p-2 bg-[#F1F1F1]">
                 <div className="flex flex-col items-center gap-5 mb-5">
                     <h3 className="font-bold text-4xl font-serif ">Our <span className="text-[#FF7000]">Volunteers</span> Says</h3>
                     <p className="bg-[#FF7000] h-1 w-11"></p>

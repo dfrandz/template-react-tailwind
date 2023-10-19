@@ -9,12 +9,12 @@ const Contact: FunctionComponent = () => {
     }, []);
     return (
         <>
-            <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
+            <div className=" mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
                 <h1 className="sm:p-[90px] p-10 text-[#FFFFFF] text-center font-bold text-5xl font-mono">CONTACT</h1>
             </div>
 
             <section className="py-2">
-                <div className="container sm:p-10 p-4 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
+                <div className="container mx-auto sm:p-10 p-4 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
                     <div className="w-2/2 flex flex-col gap-6" data-aos="zoom-in-right" data-aos-duration="1500">
                         <img src={Image1} alt="imag1" data-aos="fade-down" data-aos-duration="3000" />
                         <h1 className="text-[30px] font-bold font-serif">Send a <span className="text-[#FF7000]">Message</span></h1>

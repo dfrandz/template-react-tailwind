@@ -120,6 +120,15 @@ const Header: FunctionComponent = () => {
                                     </svg>
                                 </li>
                                 <li className="flex items-center gap-3">
+                                    <Link to='/blog' className={location.pathname == '/blog' ? 'text-[#FF7000] text-lg font-bold' : 'text-[#FFFFFF] text-lg font-bold hover:text-[#FF7000] transition-all ease-in-out duration-300' }>
+                                        Blog
+                                    </Link>
+                                    <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="3.5" y1="2.18557e-08" x2="3.5" y2="7" stroke="#FF7000" />
+                                        <line x1="7" y1="3.5" x2="-4.37114e-08" y2="3.5" stroke="#FF7000" />
+                                    </svg>
+                                </li>
+                                <li className="flex items-center gap-3">
                                     <Link to='/contact' className={location.pathname == '/contact' ? 'text-[#FF7000] text-lg font-bold' : 'text-[#FFFFFF] text-lg font-bold hover:text-[#FF7000] transition-all ease-in-out duration-300' }>
                                         Contact
                                     </Link>

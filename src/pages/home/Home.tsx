@@ -27,10 +27,10 @@ export const Home: FunctionComponent = () => {
 
     return (
         <>
-            <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 bg-[#000000]">
                 <nav className="relative mb-2">
                     <div className="relative h-96 w-full bg-gradient-to-tr ">
-                        <img src="../assets/img/Rectangle 76.png" alt="" className="w-full  object-cover absolute mix-blend-overlay" />
+                        <img src="" alt="" className="w-full object-cover absolute mix-blend-overlay" />
                         <div className="md:lg:xl:block inset-0 p-[1rem] sm:pl-[9rem]">
                             <div className="h-full flex flex-col justify-between gap-4 ">
                                 <div className="container sm:px-4 mx-auto md:lg:px-4 flex flex-col mb-20 mt-8 gap-2" data-aos="fade-down-right" data-aos-easing="linear"
@@ -54,7 +54,7 @@ export const Home: FunctionComponent = () => {
 
 
 
-            <div className="flex justify-center sm:-mt-[6rem]">
+            <div className="flex justify-center sm:-mt-[6rem] relative">
                 <div className="bg-[#FF7000] p-4 sm:w-[15.5rem] sm:h-[13rem]">
                     <div className="sm:flex flex-col items-center sm:py-14 text-[#FFFFFF]">
                         <span className="text-xs">View Our Cause</span>
@@ -76,7 +76,7 @@ export const Home: FunctionComponent = () => {
             </div>
 
 
-            <div className="container p-10 sm:pl-[14rem] grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
+            <div className="container sm:px-[8rem] p-2 mx-auto grid sm:grid-cols-2 grid-cols-1 justify-between gap-6">
                 <div className="w-2/2 flex flex-col gap-6" data-aos="zoom-in-right" data-aos-duration="1500">
                     <h1 className="text-[30px] font-bold font-serif">Welcome <span className="text-[#FF7000]">To</span>  Ngoo</h1>
                     <div className="bg-[#FF7000] h-1 w-10"></div>
@@ -102,8 +102,8 @@ export const Home: FunctionComponent = () => {
             </div>
 
             <section className=" bg-[#444444]">
-                <div className="container p-14 grid sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 sm:pl-[14rem] items-center">
-                    <div>
+                <div className="container p-2 mx-auto grid sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 sm:px-[8rem] items-center">
+                    <div className="w-2/2">
                         <h2 className="font-bold text-4xl mb-5 text-[#FFFFFF]" data-aos="zoom-in" data-aos-duration="2000"> <span className="text-[#FF7000]" >Urgent</span> Cause</h2>
                         <div className="bg-[#FF7000] h-1 w-10 mb-5"></div>
                         <h3 className="text-[30px] font-bold font-serif text-[#FFFFFF]" data-aos="zoom-in" data-aos-duration="2000"><span className="text-[#FF7000]" >#School</span> for South <br /> Kampar's Students</h3>
@@ -123,14 +123,14 @@ export const Home: FunctionComponent = () => {
                         <span className="text-[#FFFFFF] font-bold font-serif ">  <span className="text-[#FF7000]">$18,500 </span>Raised of <span className="text-[#FF7000]">$25,000 </span>Goal</span>
                     </div>
 
-                    <div className="mt-[5rem] flex items-end">
+                    <div className="mt-[5rem] flex items-center w-2/2">
                         <img src={Image1} alt="imag1" data-aos="fade-down" data-aos-duration="3000" />
                     </div>
                 </div>
 
             </section>
 
-            <section className="text-center container mt-8 sm:pl-[4rem] p-2" data-aos="fade-right"
+            <section className="text-center mx-auto container mt-8 sm:px-[4rem] p-2" data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <div className="flex flex-col items-center gap-5 mb-5">
@@ -196,15 +196,15 @@ export const Home: FunctionComponent = () => {
                 </div>
             </section>
 
-            <section className="sm:h-[28rem] relative text-center mt-[5.5rem] sm:pl-[4rem] p-2 bg-[#222222]">
+            <section className="sm:h-[28rem] mx-auto relative text-center mt-[5.5rem] sm:px-[8rem] p-2 bg-[#222222]">
                 <div className="relative w-full">
                     <img src={Map} alt="" className="w-full object-cover absolute mix-blend-normal" />
-                    <div className="flex flex-col items-center gap-5 mb-5">
+                    <div className="flex flex-col items-center gap-5 mb-5 relative">
                         <h3 className="font-bold text-2xl font-serif mt-10 text-[#FFFFFF]"> <span className="text-[#FF7000]">We Help Many</span> People</h3>
                         <p className="text-[#FF7000] text-base">Want to Become a Volunteer</p>
                     </div>
-                    <p className="text-center sm:px-72 text-[#FFFFFF]">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis iste natus error sit .</p>
-                    <div className="mt-10 flex gap-4 justify-center items-center mb-9">
+                    <p className="text-center sm:px-72 text-[#FFFFFF] relative">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis iste natus error sit .</p>
+                    <div className="mt-10 flex gap-4 justify-center items-center mb-9 relative">
                         <div className="w-6/6">
 
                             <button type="button" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-[#FF7000] text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
@@ -222,11 +222,10 @@ export const Home: FunctionComponent = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
 
-            <section className=" mt-8 p-2 bg-[#FFFFFF]">
-                <div className="container sm:p-14 grid sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 sm:pl-[14rem] items-center">
+            <section className=" relative mt-8 p-2 bg-[#FFFFFF]">
+                <div className="container mx-auto sm:p-14 grid sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 sm:px-[8rem] items-center">
                     <div className="">
                         <div className=" flex items-end">
                             <img src={Image1} alt="imag1" data-aos="fade-down" data-aos-duration="3000" />
@@ -305,7 +304,7 @@ export const Home: FunctionComponent = () => {
 
             </section>
 
-            <section className="text-center  mt-8 sm:pl-[4rem] p-2 bg-[#F1F1F1]">
+            <section className="text-center mx-auto mt-8 sm:px-[10rem] p-2 bg-[#F1F1F1]">
                 <div className="flex flex-col items-center gap-5 mb-5">
                     <h3 className="font-bold text-4xl font-serif ">Our <span className="text-[#FF7000]">Partners</span></h3>
                     <p className="bg-[#FF7000] h-1 w-11"></p>
