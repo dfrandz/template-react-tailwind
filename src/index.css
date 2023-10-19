@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+    transition: ease-in-out;
+    
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
