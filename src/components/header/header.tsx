@@ -1,6 +1,5 @@
 import { FunctionComponent, useEffect } from "react"
 import Logo from '../../assets/img/logo.png'
-// import Logo2 from '../../assets/img/LOGO DIGICOM 2.png'
 import { Link , useLocation} from "react-router-dom"
 const Header: FunctionComponent = () => {
     const location = useLocation();
